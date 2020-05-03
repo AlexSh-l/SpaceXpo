@@ -1,0 +1,324 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 250px auto 50px auto;
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"		
+		". . c c c c c c c c c c . ."
+		". . c c c c c c c c c c . ."
+		"f f f f f f f f f f f f f f";
+	background-color: rgb(6, 29, 125);
+} 
+
+.body_SPPR
+{
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 250px auto 50px auto;
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". . c c c c c c c c c c . ."
+		". . c c c c c c c c c c . ."
+		"f f f f f f f f f f f f f f";
+	background-image: url(Progr.jpg);
+	background-size: cover;
+	background-position: center;
+} 
+
+.body_Srv
+{
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 250px auto 50px auto;
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". . c c c c c c c c c c . ."
+		". . c c c c c c c c c c . ."
+		"f f f f f f f f f f f f f f";
+	background-image: url(astr.jpg);
+	background-size: cover;
+	background-position: top;
+} 
+
+.body_SX
+{
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 250px auto 50px auto;
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". . c c c c c c c c c c . ."
+		". . c c c c c c c c c c . ."
+		"f f f f f f f f f f f f f f";
+	background-image: url(intro.jpg);
+	background-size: cover;
+	background-position: top;
+} 
+
+.body_SolSys
+{
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 250px auto 50px auto;
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". . c c c c c c c c c c . ."
+		". . c c c c c c c c c c . ."
+		"f f f f f f f f f f f f f f";
+	background-image: url(SolSys.jpg);
+	background-size: cover;
+	background-position: top;
+} 
+
+.body_Glxy
+{
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 250px auto 50px auto;
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". . c c c c c c c c c c . ."
+		". . c c c c c c c c c c . ."
+		"f f f f f f f f f f f f f f";
+	background-image: url(glxy.jpg);
+	background-size: cover;
+	background-position: top;
+} 
+
+.img
+{
+	grid-area: i;
+	max-width: 100%;
+	height: 250px;
+	background-image: url(head.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.img2
+{
+	grid-area: i;
+	max-width: 100%;
+	height: 250px;
+	background-image: url(SolSys.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.img3
+{
+	grid-area: i;
+	max-width: 100%;
+	height: 250px;
+	background-image: url(Galaxy.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.img4
+{
+	grid-area: i;
+	max-width: 100%;
+	height: 250px;
+	background-image: url(SpProgr.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.img5
+{
+	grid-area: i;
+	max-width: 100%;
+	height: 250px;
+	background-image: url(astronaut.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header
+{
+	grid-area: h;
+	max-width: 100%;
+	height: 50px;
+	background-color: rgb(236, 248, 255);
+	text-align: center;
+}
+
+nav a 
+{
+		color: rgba(45, 76, 199, 0.75);
+		font: bold 16px Arial;
+		text-decoration: none;
+		margin: 0 10px 0 10px;
+		line-height: 50px;
+}
+
+.box
+{
+	grid-area: c;
+	background-color: white;
+	max-width: 100%;
+	min-height: 100vh;
+	align-self: center;
+	font: bold 20px Arial;
+	text-decoration: none;
+	line-height: 27px;
+	text-indent: 20px;
+}
+
+.box_SPPR
+{
+	grid-area: c;
+	background: rgba(255, 255, 255, 0.5);
+	max-width: 100%;
+	min-height:100vh;
+	align-self: center;
+	font: bold 20px Arial;
+	text-decoration: none;
+	line-height: 27px;
+	text-indent: 20px;
+}
+
+.regbody
+{
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 350px auto;
+	grid-template-areas: 	
+		". . d d d d d d d d d d . .";
+	margin-top: 50px;
+}
+
+.regbox
+{
+	grid-area: d;
+	background-color: white;
+	min-width: 150px;
+	min-height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input
+{
+	min-width: 90px;
+	min-height: 50px;
+	font: bold 16px Arial;
+	text-decoration: none;
+	align-self: center;
+	margin-bottom: 10px;
+}
+
+button
+{
+	min-width: 180px;
+	min-height: 50px;
+	font: bold 16px Arial;
+	text-decoration: none;
+	background-color: red;
+	color: white;
+	align-self: center;
+	border-radius: 25px;
+}
+
+footer
+{
+	grid-area: f;
+	background: rgba(192, 192, 192, 0.5);
+	text-align: left;
+	position: fixed;
+	height: 36px;
+	width: 100%;
+	bottom: 0;
+}
+
+p
+{
+	text-indent: 35px;
+}
+
+li
+{
+	text-indent: 20px;
+}
+
+ol
+{
+	margin-left: 25px;
+}
+
+.txtbox
+{
+	text-align: center;
+	align-self: center;
+}
+
+@media screen and (max-width: 450px) 
+{
+header  
+	{				
+		height: 95px;			
+	}
+
+body
+{	
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"		
+		". c c c c c c c c c c c c ."
+		". c c c c c c c c c c c c ."
+		"f f f f f f f f f f f f f f";
+} 
+
+.body_SPPR
+{
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". c c c c c c c c c c c c ."
+		". c c c c c c c c c c c c ."
+		"f f f f f f f f f f f f f f";
+} 
+
+.body_Srv
+{
+	grid-template-areas: 
+		"i i i i i i i i i i i i i i"
+		"h h h h h h h h h h h h h h"
+		". c c c c c c c c c c c c ."
+		". c c c c c c c c c c c c ."
+		"f f f f f f f f f f f f f f";
+} 
+
+.regbody
+{
+	display: grid;
+	grid-template-columns: repeat(14,1fr);
+	grid-template-rows: 400px auto;
+	grid-template-areas: 	
+		". d d d d d d d d d d d d .";
+	margin-top: 50px;
+}
+
+}
