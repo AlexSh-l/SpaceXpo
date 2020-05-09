@@ -1,0 +1,173 @@
+.background {
+    background-color: black;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    background: Yellow;
+}
+
+.mercury {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: darkgrey;
+    animation: mercuryOrbit 3s linear infinite;
+}
+
+.venus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: sienna;
+    animation: venusOrbit 4s linear infinite;
+}
+
+.earth {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.3em;
+    height: 2.3em;
+    border-radius: 50%;
+    background: royalblue;
+    animation: earthOrbit 5s linear infinite;
+}
+
+.mars {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: darkred;
+    animation: marsOrbit 6s linear infinite;
+}
+
+.jupiter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    background: orangered;
+    animation: jupiterOrbit 11s linear infinite;
+}
+
+.saturn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    background: peru;
+    animation: saturnOrbit 13s linear infinite;
+}
+
+.uranus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5.2em;
+    height: 5.2em;
+    border-radius: 50%;
+    background: mediumturquoise;
+    animation: uranusOrbit 16s linear infinite;
+}
+
+.neptune {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background: midnightblue;
+    animation: neptuneOrbit 18s linear infinite;
+}
+
+@keyframes mercuryOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-11.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-11.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes venusOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-14.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-14.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes earthOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-21em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-21em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes marsOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-28.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-28.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes jupiterOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-48.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-48.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes saturnOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-68.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-68.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes uranusOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-108.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-108.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
+
+@keyframes neptuneOrbit {
+    from {
+        transform: skewX(0deg) rotate(0deg) translateY(-138.5em) rotate(0deg) skewX(0deg) rotate(0deg);
+    }
+    to {
+        transform: skewX(0deg) rotate(360deg) translateY(-138.5em) rotate(-360deg) skewX(0deg) rotate(360deg);
+    }
+}
