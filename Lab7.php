@@ -1,8 +1,8 @@
 <?php
 session_start();
-require('external/Exception.php');
-require('external/PHPMailer.php');
-require('external/SMTP.php');
+require('vendor/phpmailer/phpmailer/src/Exception.php');
+require('vendor/phpmailer/phpmailer/src/PHPMailer.php');
+require('vendor/phpmailer/phpmailer/src/SMTP.php');
 if (isset($_POST['destination'], $_POST['topic'], $_POST['messg'], $_POST['captch'])) {
     $dest = $_POST['destination'];
     $topic = $_POST['topic'];
